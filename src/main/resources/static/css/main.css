@@ -1,0 +1,94 @@
+body {
+    padding-top: 75px;
+}
+
+#results {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid;
+}
+
+#winner {
+    font-size: 30px;
+    display: none;
+}
+
+#turnInfo {
+    font-size: 30px;
+    background-color: #F7DC6F;
+}
+
+#start-button {
+    width: 20%;
+    float: right;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#main-board {
+    width: 1130px;
+    height: 480px;
+}
+
+#main-board div {
+    float: left;
+    clear: none;
+}
+
+.player-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #D5D8DC ;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.player-container > div {
+    width: 100px;
+    height: 200px;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    border-radius: 15px;
+}
+
+.enabled {
+    cursor: pointer;
+    background-color: #F7DC6F;
+}
+
+.disabled {
+    background-color: #6a6767;;
+}
+
+#treasureA label, #treasureB label {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#treasureA, #treasureB {
+    background-color: #85929E;
+    width: 10%;
+    height: 100%;
+    margin: 5px;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 15px;
+}
+
+#playerPits {
+    width: 70%;
+    height: 100%;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#playerB {
+    flex-direction: row-reverse;
+    background-color: #D7DBDD;
+}
+
+
+
